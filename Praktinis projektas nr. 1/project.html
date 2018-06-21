@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html  lang="zxx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Zivile Aponaviciute">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="icon" href="favicon.ico">
+        <title>Project</title>
+        <style media="screen">
+            body{
+                font-family: 'Open Sans', sans-serif;
+                width: 100%;
+                margin:0 auto;
+                text-align: center;
+            }
+            ul.navig{
+                font-size: 0.9em;
+                word-spacing: 10px;
+                text-align: right;
+                list-style: none;
+                padding-right: 10px;
+            }
+            li.navig{
+                display: inline;
+            }
+            .link{
+                text-decoration: none;
+                color: indigo;
+            }
+            hr{
+                display: inline-block;
+                width: 18.9%;
+                margin-left: 15px;
+                margin-right: 15px;
+                border-color: rgba(225,225,225,0.3);
+            }
+            .circle{
+                color: lightgrey;
+                font-size: 20px;
+                margin-top: -30px;
+            }
+            .date{
+                margin-top: 30px;
+                font-size: 0.8em;
+                color: #aaa;
+            }
+            .container{
+                position: relative;
+                margin: auto;
+                width: 40%;
+            }
+            .text{
+                text-align: left;
+                color: #aaa;
+                font-size: 0.9em;
+                font-weight: bold;
+            }
+            .list{
+                margin-bottom: 10px;
+                text-align: left;
+            }
+            li.text{
+                margin-left: 20px;
+                font-weight: bold;
+            }
+            .textlink{
+                color: indigo;
+            }
+            input{
+                background-color: #efefef;
+                border: none;
+                color:#aaa;
+            }
+            #info{
+                padding: 30px;
+            }
+            #items{
+                padding: 30px;
+            }
+            #check{
+                padding: 30px;
+                margin-bottom: 50px;
+            }
+            .face{
+                float: left;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            h5{
+                text-align: left;
+            }
+            button:hover{
+                opacity: 0.5;
+            }
+            button{
+                transform: translateY(-105%);
+            }
+            .twitter{
+                padding: 5px;
+                color: white;
+                border: none;
+                width: 80px;
+                background-color: #4fafed;
+                display: inline;
+                cursor:pointer;
+            }
+            .facebook{
+                padding: 5px;
+                color: white;
+                border: none;
+                width: 80px;
+                background-color: #4361b3;
+                display: inline;
+                cursor:pointer;
+            }
+            #social{
+                padding: 30px;
+            }
+            .footer{
+                font-size: 0.8em;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <ul class="navig">
+                <li class="navig"><a class="link" href="index.html">Home</a></li>
+                <li class="navig"><a class="link" href="projects.html">Projects</a></li>
+                <li class="navig"><a class="link" href="blog.html">Blog</a></li>
+                <li class="navig"><a class="link" href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <header>
+                <figure>
+                    <img src="img/jekyll-logo-light-solid.png" alt="jekyllimg" height="100">
+                </figure>
+                    <h2><img src="ramenbig.png" alt="ramenicon">Indigo, minimalist jekyll theme</h2>
+            </header>
+            <p class="date">SATURDAY. JANUARY 23, 2016 - 1 MIN</p>
+            <input type="button" name="JEKYLL" value="JEKYLL">
+            <article id="info">
+                <p class="container text">Example of project - Indigo Minimalist Jekyll Template - <a class="textlink" href="#">Demo</a>. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+            </article>
+            <hr class="container">
+            <article id="items">
+                <p class="container text">What has inside?</p><br>
+                <ul class="container list">
+                    <li class="container text">Gulp</li>
+                    <li class="container text">BrowserSync</li>
+                    <li class="container text">Stylus</li>
+                    <li class="container text">SVG</li>
+                    <li class="container text">Travis</li>
+                    <li class="container text">No JS</li>
+                    <li class="container text"><a class="textlink" href="#">98/100</a></li>
+                </ul>
+            </article>
+            <hr class="container">
+            <article id="check">
+                <p class="container text"><a class="textlink" href="#">Check it out</a> here. If you need some help, just <a href="#">tell me</a>.</p>
+            </article>
+            <hr class="container">
+            <article id="social">
+                <figure class="container">
+                    <img class="face" src="img/profile.jpg" alt="faceicon" height="40">
+                </figure>
+                <h5 class="container">John Doe</h5>
+                <p class="container text ">A Man who travels the world eating noodles</p>
+                <button class="container twitter"><i class="fab fa-twitter"></i>Tweet</button>
+                <button class="container facebook"><i class="fab fa-facebook-square"></i>Share</button>
+            </article>
+            <hr><hr>
+            <p class="circle">&#9675;</p>
+            <footer>
+                <p class="footer">John Doe &copy; 2018 <i class="fas fa-rss"></i></p>
+            </footer>
+        </main>
+    </body>
+</html>
